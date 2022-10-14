@@ -116,6 +116,7 @@ const Login: FC = () => {
           value={loginState.email}
           label="E-Mail"
           isValid={loginState.emailIsValid}
+          placeholder="john.doe@example.com"
           onChange={emailChangeHandler}
           onBlur={validateEmailHandler}
         />
@@ -126,6 +127,7 @@ const Login: FC = () => {
           value={loginState.password}
           label="Password"
           isValid={loginState.passwordIsValid}
+          placeholder="> 6 symbols"
           onChange={passwordChangeHandler}
           onBlur={validatePasswordHandler}
         />
