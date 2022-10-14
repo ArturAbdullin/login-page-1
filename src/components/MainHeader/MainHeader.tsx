@@ -5,7 +5,7 @@ import Navigation from "./Navigation";
 const MainHeader: FC = () => {
   return (
     <header className={styles["main-header"]}>
-      <h1>A Typical Page</h1>
+      <h1>login page with validation</h1>
       <Navigation />
     </header>
   );
